@@ -156,7 +156,7 @@ int main()
                         printf("   *****     ");
                         printf("    ***      ");
                         printf("     *       ");
-                        printf("Computer Wins!\n");
+                        printf("You Win!\n");
                         printf("\n");
                         Pscore= Pscore + 1;
                     }
