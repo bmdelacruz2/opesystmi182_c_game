@@ -12,7 +12,8 @@ int main()
     int Cscore =0;
     int choice;
     srand(time(NULL));
-    printf("Rock=1 , Paper= 2, and Scissors= 3\n");
+    printf("ROCK = 1 , PAPER = 2, and SCISSOR = 3\n");
+    printf("5 rounds\n");
 
     for(i=0;i<5;i++){
         printf("Enter your choice:");
@@ -20,67 +21,213 @@ int main()
             int computer=rand()%3+1;
             if(choice==1){
                 if(computer==1){
-                    printf("You chose rock\n");
-                    printf("Computer chose rock\n");
-                    printf("Draw\n");
-                    printf(" \n");
+                    printf("You chose ROCK\n");
+                    printf("    ***      \n");
+                    printf("   *****     \n");
+                    printf("   ******    \n");
+                    printf("   *****     \n");
+                    printf("    ***      \n");
+                    printf("     *       \n");
+                    printf("\n");
+                    printf("    VS");
+                    printf("\n");
+                    printf("\n");
+                    printf("Computer chose ROCK\n");
+                    printf("    ***      \n");
+                    printf("   *****     \n");
+                    printf("   ******    \n");
+                    printf("   *****     \n");
+                    printf("    ***      \n");
+                    printf("     *       \n");
+                    printf("Result: Draw\n");
+                    printf("\n");
+                    
+                    
                 }
                 if(computer==2){
-                    printf("You chose rock\n");
-                    printf("Computer chose paper\n");
-                    printf("Computer Wins!\n");
-                    printf(" \n");
+                    printf("You chose ROCK\n");
+                    printf("    ***      \n");
+                    printf("   *****     \n");
+                    printf("   ******    \n");
+                    printf("   *****     \n");
+                    printf("    ***      \n");
+                    printf("     *       \n");
+                    printf("\n");
+                    printf("    VS");
+                    printf("\n");
+                    printf("\n");
+                    printf("Computer chose PAPER\n");
+                    printf("    ******   \n");
+                    printf("   ******    \n");
+                    printf("   *****     \n");
+                    printf("  *****      \n");
+                    printf(" *****       \n");
+                    printf(" ****        \n");
+                    printf("Result: Computer Wins!\n");
+                    printf("\n");
                     Cscore= Cscore + 1;
                 }
                 if(computer==3){
-                    printf("You chose rock\n");
-                    printf("Computer chose scissor\n");
-                    printf("You Win\n");
-                    printf(" \n");
+                    printf("You chose ROCK\n");
+                    printf("    ***      \n");
+                    printf("   *****     \n");
+                    printf("   ******    \n");
+                    printf("   *****     \n");
+                    printf("    ***      \n");
+                    printf("     *       \n");
+                    printf("\n");
+                    printf("    VS");
+                    printf("\n");
+                    printf("\n");
+                    printf("Computer chose SCISSOR\n");
+                    printf("  **    **   \n");
+                    printf("   **  **    \n");
+                    printf("    ****     \n");
+                    printf("    ***      \n");
+                    printf("  **   **    \n");
+                    printf("  **   **    \n");
+                    printf("Result: You Win\n");
+                    printf("\n");
                     Pscore = Pscore + 1;
                 }
             }
               else  if(choice==2){
                     if(computer==2){
-                        printf("You chose paper\n");
-                        printf("Computer chose paper\n");
+                        printf("You chose PAPER\n");
+                        printf("    ******   \n");
+                        printf("   ******    \n");
+                        printf("   *****     \n");
+                        printf("  *****      \n");
+                        printf(" *****       \n");
+                        printf(" ****        \n");
+                        printf("\n");
+                        printf("    VS");
+                        printf("\n");
+                        printf("\n");
+                        printf("Computer chose PAPER\n");
+                        printf("    ******   \n");
+                        printf("   ******    \n");
+                        printf("   *****     \n");
+                        printf("  *****      \n");
+                        printf(" *****       \n");
+                        printf(" ****        \n");
                         printf("Draw\n");
-                        printf(" \n");
+                        printf("\n");
                     }
                     if(computer==3){
-                        printf("You chose paper\n");
-                        printf("Computer chose scissor\n");
+                        printf("You chose PAPER\n");
+                        printf("    ******   \n");
+                        printf("   ******    \n");
+                        printf("   *****     \n");
+                        printf("  *****      \n");
+                        printf(" *****       \n");
+                        printf(" ****        \n");
+                        printf("\n");
+                        printf("    VS");
+                        printf("\n");
+                        printf("\n");
+                        printf("Computer chose SCISSOR\n");
+                        printf("  **    **   \n");
+                        printf("   **  **    \n");
+                        printf("    ****     \n");
+                        printf("    ***      \n");
+                        printf("  **   **    \n");
+                        printf("  **   **    \n");
                         printf("Computer Wins!\n");
-                        printf(" \n");
+                        printf("\n");
                         Cscore = Cscore + 1;
                     }
                     if(computer==1){
-                        printf("You chose paper\n");
-                        printf("Computer chose rock\n");
+                        printf("You chose PAPER\n");
+                        printf("    ******   \n");
+                        printf("   ******    \n");
+                        printf("   *****     \n");
+                        printf("  *****      \n");
+                        printf(" *****       \n");
+                        printf(" ****        \n");
+                        printf("\n");
+                        printf("    VS");
+                        printf("\n");
+                        printf("\n");
+                        printf("Computer chose ROCK\n");
+                        printf("    ***      ");
+                        printf("   *****     ");
+                        printf("   ******    ");
+                        printf("   *****     ");
+                        printf("    ***      ");
+                        printf("     *       ");
                         printf("Computer Wins!\n");
-                        printf(" \n");
+                        printf("\n");
                         Pscore= Pscore + 1;
                     }
                 }
                 else if(choice==3){
                     if(computer==3){
-                        printf("You chose scissor\n");
-                        printf("Computer chose scissor\n");
+                        printf("You chose SCISSOR\n");
+                        printf("  **    **   \n");
+                        printf("   **  **    \n");
+                        printf("    ****     \n");
+                        printf("    ***      \n");
+                        printf("  **   **    \n");
+                        printf("  **   **    \n");
+                        printf("\n");
+                        printf("    VS");
+                        printf("\n");
+                        printf("\n");
+                        printf("Computer chose SCISSOR\n");
+                        printf("  **    **   \n");
+                        printf("   **  **    \n");
+                        printf("    ****     \n");
+                        printf("    ***      \n");
+                        printf("  **   **    \n");
+                        printf("  **   **    \n");
                         printf("Draw\n");
                         printf(" \n");
                     }
                     if(computer==2){
-                        printf("You chose scissor\n");
-                        printf("Computer chose paper\n");
+                        printf("You chose SCISSOR\n");
+                        printf("  **    **   \n");
+                        printf("   **  **    \n");
+                        printf("    ****     \n");
+                        printf("    ***      \n");
+                        printf("  **   **    \n");
+                        printf("  **   **    \n");
+                        printf("\n");
+                        printf("    VS");
+                        printf("\n");
+                        printf("\n");
+                        printf("Computer chose PAPER\n");
+                        printf("    ******   \n");
+                        printf("   ******    \n");
+                        printf("   *****     \n");
+                        printf("  *****      \n");
+                        printf(" *****       \n");
+                        printf(" ****        \n");
                         printf("You Win!\n");
-                        printf(" \n");
+                        printf("\n");
                         Pscore= Pscore + 1;
                     }
                     if(computer==1){
-                        printf("You chose scissor\n");
-                        printf("Computer chose rock\n");
+                        printf("You chose SCISSOR\n");
+                        printf("  **    **   \n");
+                        printf("   **  **    \n");
+                        printf("    ****     \n");
+                        printf("    ***      \n");
+                        printf("  **   **    \n");
+                        printf("  **   **    \n");
+                        printf("\n");
+                        printf("    VS");
+                        printf("\n");
+                        printf("\n");
+                        printf("Computer chose ROCK\n");
+                        printf("    ***      ");
+                        printf("   *****     ");
+                        printf("   ******    ");
+                        printf("   *****     ");
+                        printf("    ***      ");
+                        printf("     *       ");
                         printf("Computer Wins!\n");
-                        printf(" \n");
+                        printf("\n");
                         Cscore = Cscore + 1;
 
                     }
@@ -104,4 +251,3 @@ int main()
 
     return 0;
 }
-
