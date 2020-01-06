@@ -251,3 +251,9 @@ int main()
 
     return 0;
 }
+
+/*
+
+This is where I got the code:
+https://adv-computers-c-programs.weebly.com/rock--paper-scissors.html
+*/
